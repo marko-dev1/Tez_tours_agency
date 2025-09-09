@@ -101,11 +101,11 @@ header{
     display: grid;
     grid-template-columns: repeat(4, 1fr);
     justify-items: center;
-    margin: 40px 0;
+    /* margin: 40px 0; */
 }
 .destination-section h2{
     font-size: 76px;
-    /* margin: 20px; */
+    margin: 20px;
     text-align: center;
     color: #edc16e;
 }
@@ -114,15 +114,16 @@ header{
    color: hotpink;
 } 
 .destination img{
-  width: 350px;
-    height: 350px;
+    
+  width: 300px;
+    height: 300px;
     object-fit: cover;
     border-radius: 12px;
-    margin-left: 20px;
+    /* margin-left: 20px; */
 }
 .destination-item{
     display: block;
-    margin: 15px;
+    margin: 10px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     border-radius: 12px;
     padding-bottom: 10px;
@@ -266,12 +267,8 @@ header{
     gap: 20px;
 }
 .payment-modes img{
-    /* width: 150px;
-    height: 120px; */
     max-width: 20%;
     object-fit: contain;
-    /* border-radius: 8px; */
-    /* box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); */
     transition: all 0.3s ease;
 }
 .step_1 , .step_2,.step_3{
